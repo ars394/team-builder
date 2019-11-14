@@ -61,7 +61,10 @@ function App() {
 
   return (
     <div className="teamMem">
-      <img src={logo} className="App-logo" alt="logo" />
+      <div className="logo">
+        <img src={logo} className="App-logo" alt="logo" />
+      </div>
+      
       <div className="teamMemform">
       <h1>Join Anisha's Team!</h1>
         <NewMemberForm addNewMem={addNewMem}/>
