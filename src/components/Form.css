@@ -1,6 +1,32 @@
-form {
+.formInput {
     text-align: center;
-    color: lightcyan;
+    color: white;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-     font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin: 1%;
+    
+    
 }
+
+.formInput:first-child {
+    margin-top: 0%;
+}
+
+.teamMem {
+    border-bottom: 1px solid white;
+    
+}
+
+h2 {
+    margin: 1%;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.formtext {
+    background-color: #374d89;
+    border-bottom: 1px solid white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-top: 1px solid white;
+  }

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import NewMemberForm, {MemberInfo} from "./components/Form"
 
@@ -7,43 +7,43 @@ function App() {
   const [members, setMember] = useState([
     {
       id: 0,
-      membername: "Happy Developer",
+      name: "Happy Developer",
       email: "sunshine@react.com",
       role: "Web Developer"
     },
      {
       id: 1,
-      membername: "Grumpy Developer",
+      name: "Grumpy Developer",
       email: "grump@react.com",
       role: "UX Developer"
      },
      {
       id: 2,
-      membername: "Sleepy Developer",
+      name: "Sleepy Developer",
       email: "snooze@react.com",
       role: "Web Developer"
      },
      {
       id: 3,
-      membername: "Dopey Developer",
+      name: "Dopey Developer",
       email: "thedopest@react.com",
       role: "UX Developer"
      },
      {
       id: 4,
-      membername: "Bashful Developer",
+      name: "Bashful Developer",
       email: "servinbashfullooks@react.com",
       role: "Web Developer"
      },
      {
       id: 5,
-      membername: "Sneezy Developer",
+      name: "Sneezy Developer",
       email: "kleenex@react.com",
       role: "UX Developer"
      },
      {
       id: 6,
-      membername: "Doc Developer",
+      name: "Doc Developer",
       email: "emdee@react.com",
       role: "Web Developer"
      }
@@ -52,7 +52,7 @@ function App() {
     const newInput = {
       name: newMem.name,
       id: Date.now(),
-      name: newMem.membername,
+      //name: newMem.membername,
       email: newMem.email,
       role: newMem.role
     };
@@ -61,12 +61,9 @@ function App() {
 
   return (
     <div className="teamMem">
-      <div className="logo">
-        <img src={logo} className="App-logo" alt="logo" />
-      </div>
       
       <div className="teamMemform">
-      <h1>Join Anisha's Team!</h1>
+      <h1>Join Snow White's Team!</h1>
         <NewMemberForm addNewMem={addNewMem}/>
       </div>
       <div className="teamMemDisplay">
